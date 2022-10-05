@@ -36,7 +36,7 @@ mvn compile quarkus:dev
 
 1 Send a request
 
-curl --location --request GET 'http://localhost:8080/hello/Robert'
+curl --location --request GET 'http://localhost:8080/hello?name=Robert'
 
 2 Open browser graylog(http://localhost:9000/) and click "All messages"
 
